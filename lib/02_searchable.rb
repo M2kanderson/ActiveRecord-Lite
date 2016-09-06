@@ -11,7 +11,6 @@ module Searchable
       FROM #{self.table_name}
       WHERE #{query_params}
     SQL
-
     parse_all(query)
   end
 end
